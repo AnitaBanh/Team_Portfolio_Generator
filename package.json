@@ -4,7 +4,8 @@
     "description": "This command-line tool generates an HTML page from user input.",
     "main": "index.js",
     "scripts": {
-      "test": "jest"
+      "test": "jest",
+      "start": "node index.js"
     },
     "keywords": [],
     "author": "",
