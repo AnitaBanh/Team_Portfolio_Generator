@@ -1,0 +1,16 @@
+{
+    "name": "challenge 10",
+    "version": "1.0.0",
+    "description": "This command-line tool generates an HTML page from user input.",
+    "main": "index.js",
+    "scripts": {
+      "test": "jest"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+      "inquirer": "^8.2.4"
+    }
+  }
+  
