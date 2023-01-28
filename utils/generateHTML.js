@@ -35,7 +35,9 @@ function generateHTML(data) {
             <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
           </head>
           <body>
-          
+          <nav class="navbar navbar-light bg-danger text-white text-center">
+          <span class="navbar-brand mb-0 h1">My Team</span>
+          </nav>
           <div class="card">
           <h5 class="card-header">${data.name}</h5>
           <h6 class="card-subtitle mb-2 text-muted">${renderRole}</h6>
