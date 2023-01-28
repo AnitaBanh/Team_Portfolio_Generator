@@ -1,0 +1,1 @@
+const Inter = require("../lib/Intern");

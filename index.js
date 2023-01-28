@@ -99,7 +99,7 @@ function menu() {
         },
       ])
       .then((answers) => {
-        console.log("creating engineer");
+        // console.log("creating engineer");
         const engineer = new Engineer(answers.engrName, answers.engrId, answers.engrEmail, answers.gitHub);
         teamMembers.push(engineer);
         idArray.push(answers.engrId);
@@ -134,7 +134,7 @@ function menu() {
         },
       ])
       .then((answers) => {
-        console.log("creating intern");
+        // console.log("creating intern");
         const intern = new Intern(answers.internName, answers.internId, answers.internEmail, answers.school);
         teamMembers.push(intern);
         idArray.push(answers.internId);
@@ -156,12 +156,9 @@ function menu() {
 
   
   // run create manager first, then run main prompt and create the HTML file
-  function init() {
-    createManager().then(() => {
-      mainPrompt().then((data) => {
-        writeToFile("list.HTML", data);
-      });
-    });
+  function init(data) {
+       writeToFile("list.HTML", data);
+      
   }
   createManager();
 }
